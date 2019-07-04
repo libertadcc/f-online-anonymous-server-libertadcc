@@ -1,0 +1,19 @@
+{
+  "name": "ls",
+  "version": "1.0.0",
+  "description": "Base para la prueba técnica 4 de la formación continua en Adalab",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Adalab/f-online-anonymous-server-libertadcc.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Adalab/f-online-anonymous-server-libertadcc/issues"
+  },
+  "homepage": "https://github.com/Adalab/f-online-anonymous-server-libertadcc#readme"
+}
