@@ -1,4 +1,50 @@
 /* COMMON */
+
+@keyframes appear {
+  0% {
+    width: 0;
+    height: 0;
+  }
+  25% {
+    width: 25vw;
+    height: 25vh;
+  }
+  50% {
+    width: 50vw;
+    height: 50vh;
+  }
+  75% {
+    width: 75vw;
+    height: 75vh;
+  }
+  100% {
+    width: 100vw;
+    height: 100vh;
+  }
+}
+@keyframes disappear {
+  0% {
+    width: 100vw;
+    height: 100vh;
+  }
+  25% {
+    width: 75vw;
+    height: 75vh;
+  }
+  50% {
+    width: 50vw;
+    height: 50vh;
+  }
+  75% {
+    width: 25vw;
+    height: 25vh;
+  }
+  100% {
+    width: 0;
+    height: 0;
+  }
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -35,6 +81,12 @@ body {
   border-radius: 5px;
 }
 
+/* .closed {
+  animation-duration: .25s;
+  animation-name: disappear;
+  animation-timing-function: ease;
+} */
+
 /* MENU */
 .nav {
   background: #402929;
@@ -45,7 +97,11 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  animation-duration: .3s;
+  animation-name: appear;
+  animation-timing-function: ease;
 }
+
 .nav__items {
   list-style: none;
   padding: 0;
@@ -78,6 +134,7 @@ body {
   border-radius: 5px;
   color: white;
 }
+
 
 /* MAIN */
 .page__main {
