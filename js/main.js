@@ -10,9 +10,7 @@ const show = () => {
 }
 
 const hide = () => {
-  nav.classList.add('hidden'
-  // , 'closed'
-  );
+  nav.classList.add('hidden');
   navTrigger.classList.remove('hidden');
 
 }
